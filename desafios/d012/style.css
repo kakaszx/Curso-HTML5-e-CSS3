@@ -3,24 +3,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  margin: auto;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+html,
+body {
+  min-height: 100vh;
 }
 
 header {
-  font-family: "Segoe UI", sans-serif;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 30px;
-  font-weight: bold;
+  padding-bottom: 50px;
+  font-size: 8.8vw;
 }
 h1 {
-  font-size: 6em;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
 }
 
 header p {
-  padding: 30px;
-  font-size: 1.5em;
+  padding-top: 50px;
+  font-size: 1.95vw;
 }
 
 .milton {
@@ -37,61 +44,32 @@ header p {
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
 }
 
-.estoucansado {
+.normal {
   font-family: "Sour Gummy", sans-serif;
   padding: 50px;
-  font-size: 2.4em;
+  font-size: 3.5vh;
 }
 
-.flor {
-  height: 60vh;
+.imagem {
+  height: 50vh;
   padding: 30px;
   font-family: "Sour Gummy", sans-serif;
-  font-size: 4em;
+  font-size: 3.5vh;
   color: white;
-
   background-color: green;
   background-image: url(imagens/background001.jpg);
   box-shadow: 0px 0px 12px black;
-  background-size: cover;
-}
-.arroba {
-  padding: 50px;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 2.4em;
+  background-attachment: fixed;
 }
 
-.sdds {
-  padding: 50px;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 4em;
-  color: white;
-
+.imagem#joaninha {
+  background-color: green;
+}
+.imagem#papel {
   background-color: wheat;
   background-image: url(imagens/background002.jpg);
-  box-shadow: 0px 0px 12px black;
-  background-size: cover;
-}
-
-.envio {
-  padding: 50px;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 2.4em;
-}
-
-.chegando {
-  padding: 50px;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 2.4em;
-}
-
-.labios {
-  padding: 50px;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 2.4em;
 }
 
 footer {
