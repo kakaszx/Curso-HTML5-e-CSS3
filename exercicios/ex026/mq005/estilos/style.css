@@ -19,14 +19,14 @@ header > h1 {
     text-align: center;
 }
 
-.material-symbols-outlined {
+span#burger {
     background-color: rgb(153, 207, 240);
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
 }
-.material-symbols-outlined:hover {
+span#burger:hover {
     background-color: white;
     color: black;
 }
