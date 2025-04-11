@@ -8,13 +8,11 @@
   menu {
     display: block;
   }
-}
-
-menu > ul > li {
+  menu > ul > li {
     display: inline-block;
-    
-}
+  }
 
-main {
+  main {
     width: 768px;
+  }
 }
